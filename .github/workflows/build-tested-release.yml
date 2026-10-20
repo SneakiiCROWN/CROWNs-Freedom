@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.14'
+      - name: Install image-verification test dependency
+        run: python -m pip install -r requirements-dev.txt
       - name: Run full synthetic SDK regressions
         run: python -X utf8 TOOLS/run_offline_regressions.py
       - name: Build versioned mod and Windows ZIP

@@ -26,6 +26,8 @@ The source includes the ECHO menu and Quick Dock, guarded item-pool spawning, wa
 
 **86/86 offline regression programs passed** against the exact R22 runtime source. Only expected release-name strings in inherited tests were adjusted to R22; behavioural checks remain. The packaged SDK mod is CRC/hash checked and tested through an isolated synthetic SDK import/menu startup.
 
+Some local offline Python processes have also shown intermittent access violations; those failures are retained rather than described as a game fix. The independent clean-runner checks and native game verification remain separate.
+
 **Live BL4 gameplay is unverified.** The historical reopen/access-violation crash remains an open gate. Spawn/XP receipts, physical controller input, gamepad focus, co-op replication and native art/audio need real-game tests. Missing optional Arena, BL4Live or XP add-ons leave their integrations unavailable; those third-party programs are not bundled.
 
 **Compatibility:** Windows PC Borderlands 4 / Oak2 PythonSDK, Python 3.12+. The project targets unrealsdk 3.2.0 and pyunrealsdk 1.10.0. No specific BL4 patch version or current-patch compatibility is certified. Use the official SDK build for your game; console support is not provided.
