@@ -1,0 +1,1 @@
+Run all TESTS/test_*.py with Python 3.12+. New v3.4 test_v34_comfort.py: 248 synthetic geometry combinations, no overlapping clickable buttons, D-pad repeat and mixed-input protections, Escape, dropdown, auto-created settings directory and focus retention. Offline mocks are NOT live BL4 proof.

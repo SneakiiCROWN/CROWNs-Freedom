@@ -1,0 +1,18 @@
+CROWN'S FREEDOM — ECHO FIELDCRAFT R22 DEVELOPMENT TEST
+
+This is an installable SDK mod, not a standalone Windows EXE.
+
+1. Close Borderlands 4.
+2. Install the matching official BL4 PythonSDK if needed:
+   https://bl-sdk.github.io/oak2-mod-db/
+3. Back up the existing CROWN .sdkmod outside sdk_mods.
+4. Copy CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod into sdk_mods.
+5. Keep exactly one CROWN mod active. Start the game normally, then use F7.
+
+F6 closes/unsticks; F9 recovers focus; F10 restores owned temporary effects.
+F11 toggles Quick Dock; F8 opens Travel Hub; L3+R3 is the controller menu chord.
+Native gameplay/controller behaviour is unverified. The old native crash is not certified fixed.
+F10 is not a character-save rollback. Preserve saves and SDK settings.
+
+Removal: with the game closed, remove only the CROWN .sdkmod.
+No SDK DLL, game binary, game content or save is included or replaced.

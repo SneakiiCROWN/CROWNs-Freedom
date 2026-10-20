@@ -1,0 +1,12 @@
+Selected supplied assets — R3, verified 2026-10-15
+
+Wenrexa: Free UI Hologram Interface, Card X3/Card X5.png. CC0 as stated by the author's OpenGameArt listing: https://opengameart.org/content/free-ui-hologram-interface
+Kenney: Input Prompts 1.5A, Xbox Series/Default/xbox_dpad.png. Included License.txt and https://kenney.nl/assets/input-prompts state CC0.
+Kenney: Interface Sounds 1.0, Audio/open_003.ogg and Audio/close_003.ogg. Included License.txt and https://kenney.nl/assets/interface-sounds state CC0. Converted to short mono 22050Hz PCM cues, capped at 450ms with a tail fade and three gains. ECHO sound set only; CLASSIC, mute and saved volume unchanged.
+CROWN original R3_HEADER, R3_CARD, R3_DOCK: original SVG sources included, dedicated CC0.
+CC0 terms: https://creativecommons.org/publicdomain/zero/1.0/
+Per-file hashes and provenance: CROWN_CC0_ASSETS/MANIFEST.json and REFERENCE/SELECTED_ASSETS_R3.json.
+
+Reviewed but not selected: rubberduck sci-fi interface textures/source archives and 50 CC0 Sci-Fi SFX. Their OpenGameArt pages list CC0, but their visual/audio density did not justify extra runtime textures or loops. https://opengameart.org/content/sci-fi-interface-textures and https://opengameart.org/content/50-cc0-sci-fi-sfx
+
+Pat Guarino and Keegan Chua Borderlands portfolio images are visual references only. No new portfolio/game screenshots, game voices, fonts, executables or complete assets.zip are in the runtime package. Selected PNGs are unchanged source bytes; CROWN placement, layering and opacity adapt them at runtime. Nothing executes from the supplied archive. Native UMG imports and playback require live game testing.

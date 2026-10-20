@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+INSTALL/
+dist/
+QA_CURRENT_OFFLINE.json
+*.log

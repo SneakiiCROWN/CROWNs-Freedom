@@ -1,0 +1,609 @@
+{
+  "origin": "Curated original, Kenney and licensed user-provided art",
+  "license": "mixed; see per-file provenance and THIRD_PARTY_CREDITS_V5_10.md",
+  "assets": [
+    {
+      "id": "RIVET_PANEL",
+      "filename": "RIVET_PANEL.png",
+      "source_pack": "scifi",
+      "source_member": "PNG/Extra/Default/panel_rectangle_screws.png",
+      "sha256": "37e09d770b74109779c64073e5f16f631172a96cf4583f808ba681f9d332f8f2",
+      "bytes": 365
+    },
+    {
+      "id": "BLADE_PLATE",
+      "filename": "BLADE_PLATE.png",
+      "source_pack": "scifi",
+      "source_member": "PNG/Blue/Default/button_square_header_blade_rectangle_screws.png",
+      "sha256": "34e2a065ea6c4e6efefba508b96c029e1db5f4af4e4d3899dada06308199aeea",
+      "bytes": 695
+    },
+    {
+      "id": "AMBER_PLATE",
+      "filename": "AMBER_PLATE.png",
+      "source_pack": "scifi",
+      "source_member": "PNG/Yellow/Default/button_square_header_blade_rectangle_screws.png",
+      "sha256": "54ac8737524516f6caad65d788034a5de6ec27ea9bb6ff87a820f50fb6b7cdc1",
+      "bytes": 695
+    },
+    {
+      "id": "GLASS_BADGE",
+      "filename": "GLASS_BADGE.png",
+      "source_pack": "scifi",
+      "source_member": "PNG/Extra/Default/panel_glass_screws.png",
+      "sha256": "6059efb0bbff5597104ecaef460d120eb30e31b174a7556e6122cec70419cc94",
+      "bytes": 350
+    },
+    {
+      "id": "BORDER_BTN",
+      "filename": "BORDER_BTN.png",
+      "source_pack": "ui",
+      "source_member": "PNG/Blue/Default/button_rectangle_depth_border.png",
+      "sha256": "19dd881d5c38d58e93db451152356a8ecb1375b247615d4e340b678233398b01",
+      "bytes": 411
+    },
+    {
+      "id": "CHECK",
+      "filename": "CHECK.png",
+      "source_pack": "ui",
+      "source_member": "PNG/Blue/Default/icon_checkmark.png",
+      "sha256": "82a5c1c3dfe9a704e9f5f220c9510b622c77c2207c226b41728978c2335b1f3b",
+      "bytes": 377
+    },
+    {
+      "id": "DROP_ARROW",
+      "filename": "DROP_ARROW.png",
+      "source_pack": "ui",
+      "source_member": "PNG/Extra/Default/icon_arrow_down_light.png",
+      "sha256": "d6d01360096a720828f3311e60e757466b8d0a8fece247a04637e91081a50c6c",
+      "bytes": 251
+    },
+    {
+      "id": "click-a",
+      "filename": "SOUNDS/click-a.ogg",
+      "source_pack": "ui",
+      "source_member": "Sounds/click-a.ogg",
+      "sha256": "c5faa31bbf4a921332cdc9e7d7f7d930ca73fc8cc96e35ccc70ed2de975b26e5",
+      "bytes": 10945,
+      "status": "source audio only; not runtime-played"
+    },
+    {
+      "id": "click-b",
+      "filename": "SOUNDS/click-b.ogg",
+      "source_pack": "ui",
+      "source_member": "Sounds/click-b.ogg",
+      "sha256": "154991a6d9ac80ae193ebad3de7eacb642821e9e48d801d054aa9d2b1004e8c6",
+      "bytes": 6157,
+      "status": "source audio only; not runtime-played"
+    },
+    {
+      "id": "switch-a",
+      "filename": "SOUNDS/switch-a.ogg",
+      "source_pack": "ui",
+      "source_member": "Sounds/switch-a.ogg",
+      "sha256": "1a4c90fed704b4f4b36d58f481117cfac5cdc25279a9af97d4765b71ff21ed48",
+      "bytes": 9433,
+      "status": "source audio only; not runtime-played"
+    },
+    {
+      "id": "switch-b",
+      "filename": "SOUNDS/switch-b.ogg",
+      "source_pack": "ui",
+      "source_member": "Sounds/switch-b.ogg",
+      "sha256": "f2ed0b3b5ad7662f0900d3ca5db81f314af6bf4583802874d308656ba31de1ad",
+      "bytes": 10138,
+      "status": "source audio only; not runtime-played"
+    },
+    {
+      "id": "tap-a",
+      "filename": "SOUNDS/tap-a.ogg",
+      "source_pack": "ui",
+      "source_member": "Sounds/tap-a.ogg",
+      "sha256": "f74c1334c0c1ab9ec69f3dd723611a8eb89a2630df6c3760dee3b09413370c83",
+      "bytes": 7043,
+      "status": "source audio only; not runtime-played"
+    },
+    {
+      "id": "tap-b",
+      "filename": "SOUNDS/tap-b.ogg",
+      "source_pack": "ui",
+      "source_member": "Sounds/tap-b.ogg",
+      "sha256": "736c70844cc7cfe87fc95d5e9711c186a593bbe8ccca04e3f4c9cfa7d4e42f3a",
+      "bytes": 6119,
+      "status": "source audio only; not runtime-played"
+    },
+    {
+      "id": "TRADER_LEFT",
+      "filename": "TRADER_LEFT.png",
+      "source_pack": "original_assistant_generated",
+      "source_member": "Original unofficial comic shopkeeper art (not official character image)",
+      "sha256": "f5ea1e50ea231999b0cf5aa1984cae4cbf402d30e3e37218e34429e5c5cee376",
+      "bytes": 66630,
+      "license": "Original generated artwork; user may use in this mod"
+    },
+    {
+      "id": "TRADER_RIGHT",
+      "filename": "TRADER_RIGHT.png",
+      "source_pack": "original_assistant_generated",
+      "source_member": "Original unofficial comic shopkeeper art (not official character image)",
+      "sha256": "119435157cc1ddb34faa736025aae3f347c1257760e93e77ecc142a606ee3592",
+      "bytes": 56350,
+      "license": "Original generated artwork; user may use in this mod"
+    },
+    {
+      "id": "TITLE_WORDMARK",
+      "filename": "TITLE_WORDMARK.png",
+      "source_pack": "original_pixel_art",
+      "source_member": "Created for CROWN (rasterized locally, no fonts distributed)",
+      "sha256": "109dde22f772a90e60f85b36dd5ddd4f0d8e263baeaf8c2fbdc5f76ec0248bff",
+      "bytes": 21250,
+      "license": "Original UI asset generated for this project"
+    },
+    {
+      "id": "HAZARD_STRIP",
+      "filename": "HAZARD_STRIP.png",
+      "source_pack": "original_pixel_art",
+      "source_member": "Created for CROWN (rasterized locally, no fonts distributed)",
+      "sha256": "ccb1efcd473527e4edd86114358d48a4b3969d1194a7f197c457ea0058585fbe",
+      "bytes": 979,
+      "license": "Original UI asset generated for this project"
+    },
+    {
+      "id": "ROUTE_STRIP",
+      "filename": "ROUTE_STRIP.png",
+      "source_pack": "original_pixel_art",
+      "source_member": "CROWN v3.3 vector-inspired route diagram",
+      "sha256": "8f94bcd27268c18c54ba4e637c0098cc02f089f652f6e9c14a449d1f3ef8b034",
+      "bytes": 3328
+    },
+    {
+      "filename": "PAD_L3.png",
+      "bytes": 666,
+      "sha256": "6ce290d2cd7c38768e7c16b114c702da31d994d541bd4e0464bfeb13d697710e",
+      "id": "PAD_L3"
+    },
+    {
+      "filename": "PAD_R3.png",
+      "bytes": 697,
+      "sha256": "c9b9bdd53fd412240328df8e81a20673a774af9ba395bccb7923d584f2fad0a1",
+      "id": "PAD_R3"
+    },
+    {
+      "id": "ECHO_TOP_FRAME",
+      "filename": "ECHO_TOP_FRAME.png",
+      "source_pack": "Original CROWN generated art",
+      "sha256": "d77ac251a0f1a3cac465a41d06d9de9974a64c366e139f33f497ce6f41159038",
+      "bytes": 2092,
+      "license_note": "CROWN original"
+    },
+    {
+      "id": "ECHO_CONTENT_GLASS",
+      "filename": "ECHO_CONTENT_GLASS.png",
+      "source_pack": "Original CROWN generated art",
+      "sha256": "78554a027abcb38ad22b06e5da0b8f2a60b838393e85a875df97165a9a2ae668",
+      "bytes": 8284,
+      "license_note": "CROWN original"
+    },
+    {
+      "id": "ECHO_DOCK_PLATE",
+      "filename": "ECHO_DOCK_PLATE.png",
+      "source_pack": "Original CROWN generated art",
+      "sha256": "7562a948a07beb7b79a0e1a1964aa5b4f2c8f0cbba1a2a61b340962bb9eda706",
+      "bytes": 3184,
+      "license_note": "CROWN original"
+    },
+    {
+      "id": "ECHO_NAV_FRAME",
+      "filename": "ECHO_NAV_FRAME.png",
+      "source_pack": "Original CROWN + recoloured Wenrexa Dark Miko user-provided panel",
+      "sha256": "aa5e6c8622253eaba8e498626df3ac2c5ca0e7956a114062ca8a45acfc52b5ac",
+      "bytes": 4246,
+      "license_note": "Rights review required for public redistribution"
+    },
+    {
+      "id": "PAD_A",
+      "filename": "PAD_A.png",
+      "source_pack": "Arks @Scissormarks Xbox Premium Assets",
+      "sha256": "3ce5ca7c877d41e9c52022d86e3bd2f3548dd4b7096fa94fb2c0651677721a57",
+      "bytes": 4714,
+      "license_note": "Attribution required per bundled README"
+    },
+    {
+      "id": "PAD_B",
+      "filename": "PAD_B.png",
+      "source_pack": "Arks @Scissormarks Xbox Premium Assets",
+      "sha256": "aa4dffc0f618ee6e25c9886c911c935162954c4b00aac3c46bc16efbacdc7768",
+      "bytes": 4399,
+      "license_note": "Attribution required per bundled README"
+    },
+    {
+      "id": "ECHO_BTN_IDLE",
+      "filename": "ECHO_BTN_IDLE.png",
+      "source_pack": "CROWN original generated UI art",
+      "source_member": "ART_SOURCE/make_echo_control_skins.py",
+      "sha256": "3991c0878c5b8e7126eb25a7874aae79683cd1af1af0c8b7b68fe3b1055b642a",
+      "bytes": 2245
+    },
+    {
+      "id": "ECHO_BTN_ACTIVE",
+      "filename": "ECHO_BTN_ACTIVE.png",
+      "source_pack": "CROWN original generated UI art",
+      "source_member": "ART_SOURCE/make_echo_control_skins.py",
+      "sha256": "b7be59747eeb8eb2c40c697d2f7daa86b081657c2d8ded119b4d5a56d499aded",
+      "bytes": 2884
+    },
+    {
+      "id": "ECHO_BTN_DANGER",
+      "filename": "ECHO_BTN_DANGER.png",
+      "source_pack": "CROWN original generated UI art",
+      "source_member": "ART_SOURCE/make_echo_control_skins.py",
+      "sha256": "f9b08e8c998223c593c3518eecf0090905fcd2653c8f727cac4ba8dbc83fa0ce",
+      "bytes": 2932
+    },
+    {
+      "id": "PS_CROSS",
+      "filename": "PS_CROSS.png",
+      "source_pack": "user_supplied_ps4_premium_assets",
+      "source_member": "PS4 BUTTONS - Premium Assets/PS4 BUTTONS - Premium Assets/Main Buttons/Button - PS Cross 1.png",
+      "sha256": "b198de5487c139410b005b75d1600a4cc1cab6db839bdba89add97d28df3d998",
+      "bytes": 7138,
+      "status": "resized 96px; UI controller hint only; no rebinding"
+    },
+    {
+      "id": "PS_CIRCLE",
+      "filename": "PS_CIRCLE.png",
+      "source_pack": "user_supplied_ps4_premium_assets",
+      "source_member": "PS4 BUTTONS - Premium Assets/PS4 BUTTONS - Premium Assets/Main Buttons/Button - PS Circle 1.png",
+      "sha256": "9cab93e97e6a4cd0c04b1fe2baf4d3a8c36d410ec372e108adfa3f435868d8b0",
+      "bytes": 8686,
+      "status": "resized 96px; UI controller hint only; no rebinding"
+    },
+    {
+      "id": "PS_L3",
+      "filename": "PS_L3.png",
+      "source_pack": "user_supplied_ps4_premium_assets",
+      "source_member": "PS4 BUTTONS - Premium Assets/PS4 BUTTONS - Premium Assets/R and L Inputs/Button - PS L3.png",
+      "sha256": "01a40871c9926f3097c96e92b587a1991acd60967213846bfe1508e8fc78691d",
+      "bytes": 7769,
+      "status": "resized 96px; UI controller hint only; no rebinding"
+    },
+    {
+      "id": "PS_R3",
+      "filename": "PS_R3.png",
+      "source_pack": "user_supplied_ps4_premium_assets",
+      "source_member": "PS4 BUTTONS - Premium Assets/PS4 BUTTONS - Premium Assets/R and L Inputs/Button - PS R3.png",
+      "sha256": "0c151dbee12e9d0ac9bb5b49d459fb73bc1e1edc4afd2b3b053311f24c6c0d97",
+      "bytes": 8224,
+      "status": "resized 96px; UI controller hint only; no rebinding"
+    },
+    {
+      "id": "SANDBOX_PLATE",
+      "filename": "CROWN_SANDBOX_PLATE.png",
+      "source_pack": "CROWN original ECHO Sandbox R2 code-drawn artwork",
+      "source_member": "ART_SOURCE/CROWN_SANDBOX_PLATE.svg",
+      "sha256": "e5f1f83833e9a816edec5be1046b26b0c848c6978d48b8a5de586a83f167437c",
+      "bytes": 5304,
+      "license": "Original project artwork; no third-party image copied"
+    },
+    {
+      "id": "R3_HOLO",
+      "filename": "R3_HOLO.png",
+      "source_pack": "1._free_hologram_interface_wenrexa.zip",
+      "source_member": "1. Free Hologram Interface Wenrexa/Card X3/Card X5.png",
+      "source_url": "https://opengameart.org/content/free-ui-hologram-interface",
+      "license": "CC0-1.0",
+      "sha256": "bb67c6997613c4c8710b125df1cd851a1bc62efececd6b94243d0f1cdd8c3182",
+      "bytes": 62531
+    },
+    {
+      "id": "R3_PAD_NAV",
+      "filename": "R3_PAD_NAV.png",
+      "source_pack": "kenney_input-prompts_1.5.zip",
+      "source_member": "Xbox Series/Default/xbox_dpad.png",
+      "source_url": "https://kenney.nl/assets/input-prompts",
+      "license": "CC0-1.0",
+      "sha256": "10e27b4bb02ba3f6c9994e85998fca7bc002c6dc8297f8b67e80207273b202c6",
+      "bytes": 217
+    },
+    {
+      "id": "R3_SOUND_LOW_OPEN",
+      "filename": "UI_WAV/r3_low_open.wav",
+      "source_pack": "kenney_interface-sounds (1).zip",
+      "source_member": "Audio/open_003.ogg",
+      "source_sha256": "bcdca6b5c9c33aa15ca3fb18a1fa8d98a01b528b85be08c5a610e57c75fc022d",
+      "source_url": "https://kenney.nl/assets/interface-sounds",
+      "license": "CC0-1.0",
+      "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+      "sha256": "d55a9bc0211eaf41ee8ea41287b6b5566c7fe7be8b5a43f125eeee3d9a7fef0a",
+      "bytes": 13882
+    },
+    {
+      "id": "R3_SOUND_NORMAL_OPEN",
+      "filename": "UI_WAV/r3_normal_open.wav",
+      "source_pack": "kenney_interface-sounds (1).zip",
+      "source_member": "Audio/open_003.ogg",
+      "source_sha256": "bcdca6b5c9c33aa15ca3fb18a1fa8d98a01b528b85be08c5a610e57c75fc022d",
+      "source_url": "https://kenney.nl/assets/interface-sounds",
+      "license": "CC0-1.0",
+      "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+      "sha256": "8d955bb526967b5aed489c4e251ead90ab9e605bbe3d069cccd86e7081e58d0f",
+      "bytes": 13882
+    },
+    {
+      "id": "R3_SOUND_HIGH_OPEN",
+      "filename": "UI_WAV/r3_high_open.wav",
+      "source_pack": "kenney_interface-sounds (1).zip",
+      "source_member": "Audio/open_003.ogg",
+      "source_sha256": "bcdca6b5c9c33aa15ca3fb18a1fa8d98a01b528b85be08c5a610e57c75fc022d",
+      "source_url": "https://kenney.nl/assets/interface-sounds",
+      "license": "CC0-1.0",
+      "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+      "sha256": "93c6ceeccc25665f3f9708d11f54d3182491e698b1f52598a3a2272d49a97a7e",
+      "bytes": 13882
+    },
+    {
+      "id": "R3_SOUND_LOW_CLOSE",
+      "filename": "UI_WAV/r3_low_close.wav",
+      "source_pack": "kenney_interface-sounds (1).zip",
+      "source_member": "Audio/close_003.ogg",
+      "source_sha256": "39a1a7f3bc001766c1881841e9903c6b16f5a10b5666e0791d7f6444677d8b05",
+      "source_url": "https://kenney.nl/assets/interface-sounds",
+      "license": "CC0-1.0",
+      "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+      "sha256": "4e123067110e6b701fd288821764a6768f4b03085db534465ffe580420da77cb",
+      "bytes": 13882
+    },
+    {
+      "id": "R3_SOUND_NORMAL_CLOSE",
+      "filename": "UI_WAV/r3_normal_close.wav",
+      "source_pack": "kenney_interface-sounds (1).zip",
+      "source_member": "Audio/close_003.ogg",
+      "source_sha256": "39a1a7f3bc001766c1881841e9903c6b16f5a10b5666e0791d7f6444677d8b05",
+      "source_url": "https://kenney.nl/assets/interface-sounds",
+      "license": "CC0-1.0",
+      "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+      "sha256": "9e77520ef41de924d8a87c1b58101213b7c8a319602e019b2ad09c0e105cd580",
+      "bytes": 13882
+    },
+    {
+      "id": "R3_SOUND_HIGH_CLOSE",
+      "filename": "UI_WAV/r3_high_close.wav",
+      "source_pack": "kenney_interface-sounds (1).zip",
+      "source_member": "Audio/close_003.ogg",
+      "source_sha256": "39a1a7f3bc001766c1881841e9903c6b16f5a10b5666e0791d7f6444677d8b05",
+      "source_url": "https://kenney.nl/assets/interface-sounds",
+      "license": "CC0-1.0",
+      "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+      "sha256": "8b4e1bc8d1c3f5d226aff66a846fa27c9ce86cf262271dfade39a3e4229feb5b",
+      "bytes": 13882
+    },
+    {
+      "id": "R3_HEADER",
+      "filename": "R3_HEADER.png",
+      "source_pack": "Original CROWN SVG art",
+      "source_member": "ART_SOURCE/R3_HEADER.svg",
+      "license": "CC0-1.0",
+      "sha256": "ff8ee98f6227ca588c1008cb4ac692a11beebcd17ffd4336187ddea9099983c6",
+      "bytes": 3610
+    },
+    {
+      "id": "R3_CARD",
+      "filename": "R3_CARD.png",
+      "source_pack": "Original CROWN SVG art",
+      "source_member": "ART_SOURCE/R3_CARD.svg",
+      "license": "CC0-1.0",
+      "sha256": "6cd64d41cf6a29f655b4e43236766b15c7aaeade7cf20c354849ae55962ce333",
+      "bytes": 4254
+    },
+    {
+      "id": "R3_DOCK",
+      "filename": "R3_DOCK.png",
+      "source_pack": "Original CROWN SVG art",
+      "source_member": "ART_SOURCE/R3_DOCK.svg",
+      "license": "CC0-1.0",
+      "sha256": "067484b636b1e2dd4141a8bcdbd7df954e25644d7987dee3c99d694cf1cec00d",
+      "bytes": 4574
+    },
+    {
+      "id": "R4_HERO",
+      "filename": "R4_HERO.png",
+      "source_pack": "Original CROWN R4 vector composition",
+      "source_member": "ART_SOURCE/R4_HERO.svg",
+      "license": "CC0-1.0",
+      "sha256": "38e3a7829da15d181e3b03d0455dee465f860b7265ec70ff08525f3aa8dd5097",
+      "bytes": 3245
+    },
+    {
+      "id": "R4_DOCK",
+      "filename": "R4_DOCK.png",
+      "source_pack": "Original CROWN R4 vector composition",
+      "source_member": "ART_SOURCE/R4_DOCK.svg",
+      "license": "CC0-1.0",
+      "sha256": "a0fa2454b6edd7e47dc7f6e5557f1d12bcb169c8ebc82e9d3969b978cb0b7b7c",
+      "bytes": 5137
+    },
+    {
+      "id": "R4_PLATE",
+      "filename": "R4_PLATE.png",
+      "source_pack": "Original CROWN R4 vector composition",
+      "source_member": "ART_SOURCE/R4_PLATE.svg",
+      "license": "CC0-1.0",
+      "sha256": "e0a270493e057c94de6912884a16dedbbb490f766f2ca80dcfa580351cf1d1e5",
+      "bytes": 4871
+    },
+    {
+      "id": "R4_ICON_WEAPON",
+      "filename": "R4_ICON_WEAPON.png",
+      "source_pack": "Original CROWN R4 vector composition",
+      "source_member": "ART_SOURCE/R4_ICON_WEAPON.svg",
+      "license": "CC0-1.0",
+      "sha256": "0d1af5462b83c0e7479b96a1e2c2ca8e01820804b21d43d56c1f6106ead5c8c7",
+      "bytes": 378
+    },
+    {
+      "id": "R4_ICON_COMBAT",
+      "filename": "R4_ICON_COMBAT.png",
+      "source_pack": "Original CROWN R4 vector composition",
+      "source_member": "ART_SOURCE/R4_ICON_COMBAT.svg",
+      "license": "CC0-1.0",
+      "sha256": "d7d649c09c100c0543fb0b03ac77826d0fce56e91436bfbd9348763ed26c9d99",
+      "bytes": 716
+    },
+    {
+      "id": "R4_ICON_XP",
+      "filename": "R4_ICON_XP.png",
+      "source_pack": "Original CROWN R4 vector composition",
+      "source_member": "ART_SOURCE/R4_ICON_XP.svg",
+      "license": "CC0-1.0",
+      "sha256": "d78d63dea9f88c4fc82b771ca36bb0b70b6dbfb9a1eb35b23de2f22c50fd3290",
+      "bytes": 523
+    },
+    {
+      "id": "R4_ICON_FORGE",
+      "filename": "R4_ICON_FORGE.png",
+      "source_pack": "Original CROWN R4 vector composition",
+      "source_member": "ART_SOURCE/R4_ICON_FORGE.svg",
+      "license": "CC0-1.0",
+      "sha256": "6e866dcb061be8a8f8587c90973228ac14dee104e270da000ea2185971c7d2f1",
+      "bytes": 471
+    },
+    {
+      "id": "R4_ICON_ENCOUNTER",
+      "filename": "R4_ICON_ENCOUNTER.png",
+      "source_pack": "Original CROWN R4 vector composition",
+      "source_member": "ART_SOURCE/R4_ICON_ENCOUNTER.svg",
+      "license": "CC0-1.0",
+      "sha256": "ab019e605a5cc4afdc6fbbd82ccda4a6569fcc4b21f8aa94d1a255602b596472",
+      "bytes": 599
+    },
+    {
+      "id": "R4_ICON_CAPACITY",
+      "filename": "R4_ICON_CAPACITY.png",
+      "source_pack": "Original CROWN R4 vector composition",
+      "source_member": "ART_SOURCE/R4_ICON_CAPACITY.svg",
+      "license": "CC0-1.0",
+      "sha256": "8274f4c4ab6bf0681c7e14a1a9c4e6baf6b52097019f98acfca61f77bfc685ba",
+      "bytes": 585
+    },
+    {
+      "id": "R4_ICON_MOVEMENT",
+      "filename": "R4_ICON_MOVEMENT.png",
+      "source_pack": "Original CROWN R4 vector composition",
+      "source_member": "ART_SOURCE/R4_ICON_MOVEMENT.svg",
+      "license": "CC0-1.0",
+      "sha256": "28f364b290c26f459ba2b0e19fd19d2a5550a57f001b6c79b80d8acba7f18b51",
+      "bytes": 526
+    },
+    {
+      "id": "R9_EXPEDITION",
+      "filename": "R9_EXPEDITION.png",
+      "source_pack": "Original CROWN R9 expedition composition",
+      "source_member": "ART_SOURCE/R9_EXPEDITION.svg",
+      "license": "CC0-1.0",
+      "sha256": "9f927107070fc2516ac9d06b2a24edde0bfdbba4cf161c86560dfa1b6d9d0a2a",
+      "bytes": 24690
+    },
+    {
+      "id": "R9_FORGE",
+      "filename": "R9_FORGE.png",
+      "source_pack": "Original CROWN R9 expedition composition",
+      "source_member": "ART_SOURCE/R9_FORGE.svg",
+      "license": "CC0-1.0",
+      "sha256": "6ad9fd295f4ef3bb02394fd3e7c94109b2100693e4f15f78c0e89e3b34e8a923",
+      "bytes": 13888
+    },
+    {
+      "id": "R9_ARENA",
+      "filename": "R9_ARENA.png",
+      "source_pack": "Original CROWN R9 expedition composition",
+      "source_member": "ART_SOURCE/R9_ARENA.svg",
+      "license": "CC0-1.0",
+      "sha256": "89d1f007cb407d5ef1e8314fa4889cbde8d62e3ee544cea409f45f74935e5c1b",
+      "bytes": 15136
+    },
+    {
+      "id": "R9_FLIGHT",
+      "filename": "R9_FLIGHT.png",
+      "source_pack": "Original CROWN R9 expedition composition",
+      "source_member": "ART_SOURCE/R9_FLIGHT.svg",
+      "license": "CC0-1.0",
+      "sha256": "310bd2b028909a2558f8707a04c6e73a9c3d0132a1a8a1f58753314134067877",
+      "bytes": 16272
+    },
+    {
+      "id": "R9_DOCK",
+      "filename": "R9_DOCK.png",
+      "source_pack": "Original CROWN R9 expedition composition",
+      "source_member": "ART_SOURCE/R9_DOCK.svg",
+      "license": "CC0-1.0",
+      "sha256": "12893c78f0b393f9ee54c2328d9a07a2ff91985511ff3a51c981cab6172aed41",
+      "bytes": 14192
+    }
+  ],
+  "caveat": "These sprite files are included in the game sdkmod for optional runtime import. Runtime PNG import will only activate when the current BL4 SDK exposes the required native API. OGG files are audio sources only, not runtime sound assets.",
+  "v5_added_assets": {
+    "INK_RAIL": {
+      "filename": "INK_RAIL.png",
+      "sha256": "c9f920c78a57b3c55a7a5c22571dfdf31ad2977df919f74b62f1d473078a3f74",
+      "license": "original CROWN studio artwork"
+    },
+    "SIDE_SIGIL": {
+      "filename": "SIDE_SIGIL.png",
+      "sha256": "df409a531463b7b6ea856f9c9965935d2f8ac90c39fcb6e4cd6944615d9fafbd",
+      "license": "original CROWN studio artwork"
+    },
+    "WENREXA_SIDE": {
+      "filename": "WENREXA_SIDE.png",
+      "sha256": "8643cf4a34a524bf3a97c726c0c8a19ec0faf5f554e24c2d58e91a6e0cb6544c",
+      "source": "user-uploaded Wenrexa UI sci-fi PNG/MainPanel02.png; CC0"
+    },
+    "BLACK_MARKET_SKIN": {
+      "filename": "BLACK_MARKET_SKIN.png",
+      "sha256": "c98f3fedc7623e209da847d6439f88d1394ad246c302039804defeeb4647b60a",
+      "license": "Original procedural Wasteland Black Market transparent ink skin v5.6",
+      "bytes": 14708
+    }
+  },
+  "crown_neon_v58_original_art": {
+    "NEON_HEADER.png": {
+      "sha256": "3cd65965d2c7b6efa3946e53988b0fd936256ec6f91a82f4064ba2d34601570b",
+      "license": "original CROWN procedural artwork / reusable",
+      "format": "PNG RGBA"
+    },
+    "NEON_SIDEPANEL.png": {
+      "sha256": "7e4402746fa4334d2e284953049d11ed0ebb285620a1def8dc7f80b2f5c3cd18",
+      "license": "original CROWN procedural artwork / reusable",
+      "format": "PNG RGBA"
+    },
+    "NEON_CIRCUITS.png": {
+      "sha256": "abc60c4af7163609224de38bcf08427aab4c0c0823399029df3a9686d9e203d8",
+      "license": "original CROWN procedural artwork / reusable",
+      "format": "PNG RGBA"
+    },
+    "NEON_STRIP.png": {
+      "sha256": "cbef91ab9d650b38afe6b6f4c4acb65a2d8fdc3def4bd72395cb308377190b16",
+      "license": "original CROWN procedural artwork / reusable",
+      "format": "PNG RGBA"
+    }
+  },
+  "crown_neon_v581_original_art": {
+    "NEON_WORDMARK_COMPACT.png": {
+      "sha256": "b9e2ab158200dd1a6aafeab94763116476cb6c9dba2586eda8ef30273191fac4",
+      "license": "original CROWN procedural artwork",
+      "format": "PNG RGBA",
+      "generator": "ART_SOURCE/make_neon_compact_wordmark.py"
+    }
+  },
+  "v5_10_supplied_asset_integration": {
+    "assets": [
+      "ECHO_TOP_FRAME",
+      "ECHO_NAV_FRAME",
+      "ECHO_CONTENT_GLASS",
+      "ECHO_DOCK_PLATE",
+      "PAD_A",
+      "PAD_B"
+    ],
+    "opt_in_audio": "18 processed CC BY 4.0 Nathan Gibson WAV files",
+    "documentation": "THIRD_PARTY_CREDITS_V5_10.md"
+  }
+}

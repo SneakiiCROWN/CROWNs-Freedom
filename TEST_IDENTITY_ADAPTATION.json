@@ -1,0 +1,92 @@
+[
+  {
+    "file": "test_r11_ux_ledger.py",
+    "line": 30,
+    "before": "self.assertIn('BUILD_ID = \"5.26.0-echo-fieldcraft-r23\"', SOURCE)",
+    "after": "self.assertIn('BUILD_ID = \"5.26.0-echo-fieldcraft-r22\"', SOURCE)"
+  },
+  {
+    "file": "test_r11_ux_ledger.py",
+    "line": 31,
+    "before": "self.assertIn('ART_MOD_FILENAME=\"CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod\"', SOURCE)",
+    "after": "self.assertIn('ART_MOD_FILENAME=\"CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod\"', SOURCE)"
+  },
+  {
+    "file": "test_r15_recovery_flows.py",
+    "line": 12,
+    "before": "self.assertTrue(self.g['ART_MOD_FILENAME'].endswith('ECHO_Fieldcraft_R23.sdkmod'))",
+    "after": "self.assertTrue(self.g['ART_MOD_FILENAME'].endswith('ECHO_Fieldcraft_R22.sdkmod'))"
+  },
+  {
+    "file": "test_v34_comfort.py",
+    "line": 14,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  },
+  {
+    "file": "test_v35_final_comfort.py",
+    "line": 16,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  },
+  {
+    "file": "test_v36_stability.py",
+    "line": 14,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  },
+  {
+    "file": "test_v40_reforged.py",
+    "line": 14,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  },
+  {
+    "file": "test_v42_sidecar_input.py",
+    "line": 17,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  },
+  {
+    "file": "test_v43_refined.py",
+    "line": 14,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  },
+  {
+    "file": "test_v44_dual_dock.py",
+    "line": 13,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  },
+  {
+    "file": "test_v45_focus_clarity.py",
+    "line": 18,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  },
+  {
+    "file": "test_v46_press_lifecycle.py",
+    "line": 14,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  },
+  {
+    "file": "test_v525_visual_runtime_repair.py",
+    "line": 12,
+    "before": "assert ns['ART_MOD_FILENAME'].endswith('_R23.sdkmod')",
+    "after": "assert ns['ART_MOD_FILENAME'].endswith('_R22.sdkmod')"
+  },
+  {
+    "file": "test_v52_recovery_focus.py",
+    "line": 60,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  },
+  {
+    "file": "test_v54_integration.py",
+    "line": 88,
+    "before": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'",
+    "after": "assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'"
+  }
+]

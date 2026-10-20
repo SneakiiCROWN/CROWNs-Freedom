@@ -1,0 +1,49 @@
+name: Build and test versioned CROWN Freedom mod
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: Unique prerelease tag
+        type: string
+        required: true
+      publish:
+        description: Publish offline-tested mod (native BL4 remains unverified)
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build-test:
+    runs-on: windows-2022
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run full synthetic SDK regressions
+        run: python -X utf8 TOOLS/run_offline_regressions.py
+      - name: Build versioned mod and Windows ZIP
+        run: python -X utf8 TOOLS/build_public_release.py --output "${{ runner.temp }}/release"
+      - name: Verify actual package contents and import
+        run: python -X utf8 TOOLS/verify_package.py --folder "${{ runner.temp }}/release"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: checked-freedom-prerelease
+          path: |
+            ${{ runner.temp }}/release/*.zip
+            ${{ runner.temp }}/release/*.sdkmod
+            ${{ runner.temp }}/release/SHA256SUMS.txt
+          retention-days: 14
+      - name: Publish requested prerelease
+        if: inputs.publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        shell: pwsh
+        run: |
+          $assets = Get-ChildItem "${{ runner.temp }}/release" -File | Where-Object { $_.Extension -in '.zip','.sdkmod' -or $_.Name -eq 'SHA256SUMS.txt' } | Select-Object -ExpandProperty FullName
+          gh release create "$env:RELEASE_TAG" @assets --repo "$env:GITHUB_REPOSITORY" --target "$env:GITHUB_SHA" --prerelease --title "$env:RELEASE_TAG" --notes 'Versioned mod passed offline regressions and packaged-import checks. Read README for prerequisites, current limits and native BL4 verification status.'

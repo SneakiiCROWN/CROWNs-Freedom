@@ -1,0 +1,121 @@
+[
+  {
+    "id": "R3_HOLO",
+    "filename": "R3_HOLO.png",
+    "source_pack": "1._free_hologram_interface_wenrexa.zip",
+    "source_member": "1. Free Hologram Interface Wenrexa/Card X3/Card X5.png",
+    "source_url": "https://opengameart.org/content/free-ui-hologram-interface",
+    "license": "CC0-1.0",
+    "sha256": "bb67c6997613c4c8710b125df1cd851a1bc62efececd6b94243d0f1cdd8c3182",
+    "bytes": 62531
+  },
+  {
+    "id": "R3_PAD_NAV",
+    "filename": "R3_PAD_NAV.png",
+    "source_pack": "kenney_input-prompts_1.5.zip",
+    "source_member": "Xbox Series/Default/xbox_dpad.png",
+    "source_url": "https://kenney.nl/assets/input-prompts",
+    "license": "CC0-1.0",
+    "sha256": "10e27b4bb02ba3f6c9994e85998fca7bc002c6dc8297f8b67e80207273b202c6",
+    "bytes": 217
+  },
+  {
+    "id": "R3_SOUND_LOW_OPEN",
+    "filename": "UI_WAV/r3_low_open.wav",
+    "source_pack": "kenney_interface-sounds (1).zip",
+    "source_member": "Audio/open_003.ogg",
+    "source_sha256": "bcdca6b5c9c33aa15ca3fb18a1fa8d98a01b528b85be08c5a610e57c75fc022d",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "license": "CC0-1.0",
+    "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+    "sha256": "d55a9bc0211eaf41ee8ea41287b6b5566c7fe7be8b5a43f125eeee3d9a7fef0a",
+    "bytes": 13882
+  },
+  {
+    "id": "R3_SOUND_NORMAL_OPEN",
+    "filename": "UI_WAV/r3_normal_open.wav",
+    "source_pack": "kenney_interface-sounds (1).zip",
+    "source_member": "Audio/open_003.ogg",
+    "source_sha256": "bcdca6b5c9c33aa15ca3fb18a1fa8d98a01b528b85be08c5a610e57c75fc022d",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "license": "CC0-1.0",
+    "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+    "sha256": "8d955bb526967b5aed489c4e251ead90ab9e605bbe3d069cccd86e7081e58d0f",
+    "bytes": 13882
+  },
+  {
+    "id": "R3_SOUND_HIGH_OPEN",
+    "filename": "UI_WAV/r3_high_open.wav",
+    "source_pack": "kenney_interface-sounds (1).zip",
+    "source_member": "Audio/open_003.ogg",
+    "source_sha256": "bcdca6b5c9c33aa15ca3fb18a1fa8d98a01b528b85be08c5a610e57c75fc022d",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "license": "CC0-1.0",
+    "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+    "sha256": "93c6ceeccc25665f3f9708d11f54d3182491e698b1f52598a3a2272d49a97a7e",
+    "bytes": 13882
+  },
+  {
+    "id": "R3_SOUND_LOW_CLOSE",
+    "filename": "UI_WAV/r3_low_close.wav",
+    "source_pack": "kenney_interface-sounds (1).zip",
+    "source_member": "Audio/close_003.ogg",
+    "source_sha256": "39a1a7f3bc001766c1881841e9903c6b16f5a10b5666e0791d7f6444677d8b05",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "license": "CC0-1.0",
+    "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+    "sha256": "4e123067110e6b701fd288821764a6768f4b03085db534465ffe580420da77cb",
+    "bytes": 13882
+  },
+  {
+    "id": "R3_SOUND_NORMAL_CLOSE",
+    "filename": "UI_WAV/r3_normal_close.wav",
+    "source_pack": "kenney_interface-sounds (1).zip",
+    "source_member": "Audio/close_003.ogg",
+    "source_sha256": "39a1a7f3bc001766c1881841e9903c6b16f5a10b5666e0791d7f6444677d8b05",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "license": "CC0-1.0",
+    "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+    "sha256": "9e77520ef41de924d8a87c1b58101213b7c8a319602e019b2ad09c0e105cd580",
+    "bytes": 13882
+  },
+  {
+    "id": "R3_SOUND_HIGH_CLOSE",
+    "filename": "UI_WAV/r3_high_close.wav",
+    "source_pack": "kenney_interface-sounds (1).zip",
+    "source_member": "Audio/close_003.ogg",
+    "source_sha256": "39a1a7f3bc001766c1881841e9903c6b16f5a10b5666e0791d7f6444677d8b05",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "license": "CC0-1.0",
+    "processing": "Mono PCM 22050Hz; bounded 450ms; tail fade and three gains",
+    "sha256": "8b4e1bc8d1c3f5d226aff66a846fa27c9ce86cf262271dfade39a3e4229feb5b",
+    "bytes": 13882
+  },
+  {
+    "id": "R3_HEADER",
+    "filename": "R3_HEADER.png",
+    "source_pack": "Original CROWN SVG art",
+    "source_member": "ART_SOURCE/R3_HEADER.svg",
+    "license": "CC0-1.0",
+    "sha256": "ff8ee98f6227ca588c1008cb4ac692a11beebcd17ffd4336187ddea9099983c6",
+    "bytes": 3610
+  },
+  {
+    "id": "R3_CARD",
+    "filename": "R3_CARD.png",
+    "source_pack": "Original CROWN SVG art",
+    "source_member": "ART_SOURCE/R3_CARD.svg",
+    "license": "CC0-1.0",
+    "sha256": "6cd64d41cf6a29f655b4e43236766b15c7aaeade7cf20c354849ae55962ce333",
+    "bytes": 4254
+  },
+  {
+    "id": "R3_DOCK",
+    "filename": "R3_DOCK.png",
+    "source_pack": "Original CROWN SVG art",
+    "source_member": "ART_SOURCE/R3_DOCK.svg",
+    "license": "CC0-1.0",
+    "sha256": "067484b636b1e2dd4141a8bcdbd7df954e25644d7987dee3c99d694cf1cec00d",
+    "bytes": 4574
+  }
+]

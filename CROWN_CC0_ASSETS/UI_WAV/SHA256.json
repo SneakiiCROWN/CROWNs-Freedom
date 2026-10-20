@@ -1,0 +1,20 @@
+{
+  "low_open.wav": "34e377192a48050addb124d5b91952e93dbe3729000bcfbe1bf3646da42ff812",
+  "normal_open.wav": "400f2cbcee921aa94819054c6770df5ae9948f2a9775577c2ae777f1ecbd00ea",
+  "high_open.wav": "7e17c2be963693de05b3412fedc54ef38543a738d43e875cce8a1e55c34fd58d",
+  "low_close.wav": "25ecd8a67406fd1f1a7cc12e090da91df749109edbd3ad2857b49c4a05b81dfc",
+  "normal_close.wav": "3646d1a9895948aa7d6efcb30c864d1a53306b857edb48a0493c4b76f9e38f52",
+  "high_close.wav": "a42f8ccc910262ec8c16636a65548f258f4396ef7e5f71a1f7d58b203afff8b4",
+  "low_select.wav": "cfeab283feb8de46b4836260832a76244fc4df52614e0bae6d17541bcddc9001",
+  "normal_select.wav": "4c4dd28995915cb7457ac2a78eb5292496943f44925625d855277665dfc43bd5",
+  "high_select.wav": "e3b015ee0b697914cbae22b63b0c105d11bfa9211d893b8cdbfe624266ef71dc",
+  "low_confirm.wav": "2871ebee7fd828ad8875fa2d96a61f8223da485289d853e138416c199ea1d103",
+  "normal_confirm.wav": "4e33ec9ef950eb5a902b5916fbc161c3a1a884bbfa9cf112576de79bf2eddb0c",
+  "high_confirm.wav": "160d868b130620ef8a03465de9fb81bc75b9c766d9c3ef099d1c64693ab950e8",
+  "low_warn.wav": "e1e1509226df2619c39134da4f22b034adb6a1d94ba7a4e99dc2ea029e22cb21",
+  "normal_warn.wav": "56e8b2842b6f7b9c458514ac71c4c9e2701fb641a42591b31efdeb2904fd2c6e",
+  "high_warn.wav": "eda6c04d8a870c553ca5c69037fa76e38bf6b7a0299d6c4a20ae7e8d95d09aad",
+  "low_hover.wav": "88638af29fe2a21c3602dc25c14fa89765d5d34a1bd38f70a989c05a046da7d8",
+  "normal_hover.wav": "db4168bc52ae9b034390ef500a691d17f74f817f81d3c5b25d6c77283b934bcf",
+  "high_hover.wav": "1c9c87e32b40c409f80d576cb9d8cec8891b81ec176f70b83c90e8e68c3d3aed"
+}
