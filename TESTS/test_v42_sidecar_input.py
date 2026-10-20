@@ -14,7 +14,7 @@ try:
  exec(compile((root/'SOURCE/__init__.py').read_text(),'crowns_sidecar.py','exec'),ns)
  st=ns['State'];pc=ctx['pc'];actions=[];keys=set();pool_before=len(ctx['pool'].calls)
  pc.IsInputKeyDown=lambda k:getattr(k,'KeyName',k) in keys
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  assert 'UIOnly' in (root/'SOURCE/__init__.py').read_text()
  assert st.dock_mode=='FULL'
  def inspect_view(wh,page):

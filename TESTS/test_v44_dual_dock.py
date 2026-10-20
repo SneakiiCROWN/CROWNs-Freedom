@@ -10,7 +10,7 @@ try:
  ns={'__name__':'dual_dock_qa'}
  exec(compile((root/'SOURCE/__init__.py').read_text(),'crown_dual_dock','exec'),ns)
  st=ns['State']; before_spawns=len(ctx['pool'].calls)
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  assert 'SetInputMode_UIOnly' in (root/'SOURCE/__init__.py').read_text()
  # Preserve full window position when switching into the Side Dock.
  st.dock_mode='FULL';st.window_x=109;st.window_y=82

@@ -85,7 +85,7 @@ try:
  assert not st.opened and st.root is None and st.input_pc is None
  assert st.runtime_failures[-1]['stage']=='MENU_REMOVE'
  ns['call']=old_call
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  print('PASS v5.4: replacement PC never mutated; F9 raw UI edge; controller Forge category presets; truthful UI art and version')
 finally:
  for k,v in old.items():

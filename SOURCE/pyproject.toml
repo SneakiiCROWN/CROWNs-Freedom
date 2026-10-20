@@ -8,7 +8,7 @@ requires-python = ">=3.12"
 name = "CROWN"
 
 [tool.sdkmod]
-name = "CROWNs Freedom | ECHO Fieldcraft R22 Candidate"
+name = "CROWNs Freedom | ECHO Fieldcraft R16 Candidate"
 version = "5.26.0"
 auto_enable = true
 supported_games = ["Oak2"]

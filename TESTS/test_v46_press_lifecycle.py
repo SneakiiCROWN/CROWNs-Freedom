@@ -11,7 +11,7 @@ try:
  ns={'__name__':'crown_press_lifecycle_qa'}
  exec(compile((root/'SOURCE/__init__.py').read_text(),'press_lifecycle.py','exec'),ns)
  st=ns['State']; before=len(ctx['pool'].calls)
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  clock=100.0
  keys={'Gamepad_FaceButton_Bottom'}
  ns['key_down']=lambda pc,key:key in keys

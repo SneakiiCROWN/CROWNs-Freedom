@@ -15,7 +15,7 @@ try:
  spawn_baseline=len(ctx['pool'].calls)
  assert 'version=RELEASE_VERSION' in source and 'v5.26.0' in source
  assert 'version = "5.26.0"' in (root/'SOURCE/pyproject.toml').read_text()
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  # Duplicate visible captions must highlight the actual widget at index 1.
  b0=NS(IsHovered=lambda:False);b1=NS(IsHovered=lambda:True)
  st.buttons=[{'name':'CLOSE','widget':b0,'rect':(10,10,130,44),'disabled':False},

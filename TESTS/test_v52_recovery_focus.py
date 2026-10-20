@@ -57,7 +57,7 @@ try:
  ns['_redraw_impl']=fake_redraw
  ns['redraw']()
  assert len(renders)==2 and not st.redraw_busy and not st.redraw_pending
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  assert len(ns['UI_CATEGORY_PAGES'])==6
  print('PASS v5.2: persistent safe mode, foreground-gated raw input, bounded redraw, existing menu categories')
 finally:

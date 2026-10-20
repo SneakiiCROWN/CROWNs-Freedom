@@ -25,8 +25,8 @@ except Exception:
 
 HOOK = "/Script/Engine.CameraModifier:BlueprintModifyCamera"
 RELEASE_VERSION = "5.26.0"
-BUILD_ID = "5.26.0-echo-fieldcraft-r22"
-RELEASE_LABEL = "CROWN ECHO FIELDCRAFT R22 / v" + RELEASE_VERSION + " • FIELD DECK"
+BUILD_ID = "5.26.0-echo-fieldcraft-r23"
+RELEASE_LABEL = "CROWN ECHO FIELDCRAFT R23 / v" + RELEASE_VERSION + " • COMMAND CENTRE"
 HOOK_ID = "crowns_freedom_native_v54"
 GAMEPAD_HOOK_ID = "crowns_freedom_native_gamepad_v54"
 PURPLE = (0.12, 0.09, 0.22, 0.98)
@@ -3923,7 +3923,7 @@ def put(parent, child):
 # --------------- Optional CC0 art import: strictly fail open to native shapes ----
 # Kenney CC0 UI elements plus original generated shopkeeper art; no ripped BL4 assets.
 # Unreal UTexture2D support is patch-specific, so missing APIs must never fail UI.
-ART_MOD_FILENAME="CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod"
+ART_MOD_FILENAME="CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod"
 ART_FILES={
     'RIVET_PANEL':'RIVET_PANEL.png',
     'BLADE_PLATE':'BLADE_PLATE.png',
@@ -12396,10 +12396,10 @@ _mod_settings_file = SETTINGS_DIR / "CROWNs_Freedom_ModState.json" if SETTINGS_D
 _first_install = _mod_settings_file is None or not _mod_settings_file.exists()
 
 CROWNS_MOD=build_mod(
-    name="CROWNs Freedom | ECHO Fieldcraft R22",
+    name="CROWNs Freedom | ECHO Fieldcraft R23",
     author="CROWN",
     version=RELEASE_VERSION,
-    description="Experimental ECHO studio: staged local tools, owned temporary restoration and audited optional integrations. Native gameplay acceptance pending.",
+    description="Premium ECHO Command Centre: redesigned holographic interface, staged local tools, owned temporary restoration and audited optional integrations. Native gameplay acceptance pending.",
     keybinds=[toggle,dock_hotkey,open_travel_hub,emergency,restore_hotkey,focus_hotkey,flight_hotkey],
     on_enable=install_controller_hook,
     on_disable=on_disable,

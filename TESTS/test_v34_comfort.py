@@ -11,7 +11,7 @@ try:
  ns={'__name__':'v34_comfort_test'}
  exec(compile((root/'SOURCE/__init__.py').read_text(),'CROWNS_v34.py','exec'),ns)
  state=ns['State']
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  # SETTINGS_DIR sometimes exists in mods_base before its physical folder.
  with tempfile.TemporaryDirectory() as tmp:
   ns['SETTINGS_DIR']=Path(tmp)/'not-created-yet'

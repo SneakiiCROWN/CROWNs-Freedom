@@ -11,7 +11,7 @@ try:
  ns={'__name__':'crowns_refined_qa'}
  exec(compile((root/'SOURCE/__init__.py').read_text(),'crowns_refined','exec'),ns)
  state=ns['State'];pc=ctx['pc'];pool_calls=len(ctx['pool'].calls)
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  for viewport in ((854.,480.),(1280.,720.),(1920.,1080.),(2560.,1440.)):
   ns['viewport']=lambda viewport=viewport:viewport
   for page in ('PLAYER','MOTION','WORLD','WAYPOINTS','SPAWN','STYLE','DISPLAY','DEV'):

@@ -9,7 +9,7 @@ class RecoveryR15(P['Operations']):
     def test_release_identity(self):
         self.assertIn('fieldcraft-r', self.g['BUILD_ID'])
         self.assertIn('ECHO FIELDCRAFT', self.g['RELEASE_LABEL'])
-        self.assertTrue(self.g['ART_MOD_FILENAME'].endswith('ECHO_Fieldcraft_R22.sdkmod'))
+        self.assertTrue(self.g['ART_MOD_FILENAME'].endswith('ECHO_Fieldcraft_R23.sdkmod'))
     def test_empty_forge_workbench_has_recovery_action(self):
         self.g['_forge_selection']=lambda:None
         self.g['redraw']=self.native_redraw

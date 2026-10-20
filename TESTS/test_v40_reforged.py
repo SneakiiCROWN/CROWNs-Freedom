@@ -11,7 +11,7 @@ try:
  ns={'__name__':'crown_reforged_qa'}
  exec(compile((root/'SOURCE/__init__.py').read_text(),'crowns_reforged.py','exec'),ns)
  st=ns['State'];pc=ctx['pc']
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  assert len(ns['ART_FILES'])>=14
  assert st.theme_idx==0 and st.cursor_aid and st.panel_opacity==.91
  assert ns['CONTROLLER_CHORD']==('Gamepad_LeftThumbstick','Gamepad_RightThumbstick')

@@ -27,8 +27,8 @@ class TestR11(unittest.TestCase):
         self.assertIn('("RESTORE TEMP",restore,False)',SOURCE)
         self.assertIn('SAVE: TEMP',SOURCE)
     def test_identity_and_local_readability(self):
-        self.assertIn('BUILD_ID = "5.26.0-echo-fieldcraft-r22"', SOURCE)
-        self.assertIn('ART_MOD_FILENAME="CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod"', SOURCE)
+        self.assertIn('BUILD_ID = "5.26.0-echo-fieldcraft-r23"', SOURCE)
+        self.assertIn('ART_MOD_FILENAME="CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod"', SOURCE)
         self.assertIn('ratio is not proof', SOURCE.lower())
         self.assertNotIn('Permanent level/skill-point editing requires separately installed and tested Save Editor', SOURCE)
     def test_source_remains_parseable(self):ast.parse(SOURCE)

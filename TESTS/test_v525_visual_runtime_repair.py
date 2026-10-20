@@ -9,7 +9,7 @@ ns={'__name__':'crown_ui_runtime_acceptance'}
 exec(compile((root/'SOURCE/__init__.py').read_text(),'crown_source','exec'),ns)
 st=ns['State'];g=ns
 assert ns['RELEASE_VERSION']=='5.26.0'
-assert ns['ART_MOD_FILENAME'].endswith('_R22.sdkmod')
+assert ns['ART_MOD_FILENAME'].endswith('_R23.sdkmod')
 # FULL panel gets real extra artwork mounts, larger navigation and a one-click
 # SAFE UI toggle. Mounted images remain optional/non-hit-testable.
 recorded=[]

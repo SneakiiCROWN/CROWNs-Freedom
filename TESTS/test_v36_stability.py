@@ -11,7 +11,7 @@ try:
  ns={'__name__':'crowns_stability_test'}
  exec(compile((base/'SOURCE/__init__.py').read_text(),str(base/'SOURCE/__init__.py'),'exec'),ns)
  st=ns['State']
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  with tempfile.TemporaryDirectory() as folder:
   ns['SETTINGS_DIR']=Path(folder)
   prefs=Path(folder)/'CROWNs_Freedom_UI.json'; bak=prefs.with_name(prefs.name+'.bak')

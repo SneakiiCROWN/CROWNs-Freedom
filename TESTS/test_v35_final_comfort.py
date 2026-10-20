@@ -13,7 +13,7 @@ try:
  st=ns['State']
  assert abs(st.panel_scale-1.14)<.01 and abs(st.panel_opacity-.91)<.01
  assert abs(st.font_scale-1.06)<.01 and not st.compact
- assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R22.sdkmod'
+ assert ns['ART_MOD_FILENAME']=='CROWNs_Freedom_v5_26_ECHO_Fieldcraft_R23.sdkmod'
  # A redraw while an editor is open must retain the unsaved draft.
  ns['viewport']=lambda:(1920.,1080.)
  ns['open_menu']();assert st.opened and st.draw_ok
